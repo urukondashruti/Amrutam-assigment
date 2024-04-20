@@ -1,0 +1,534 @@
+.background1{
+    background-image: linear-gradient(to right, #E2E2E2, white);
+    background-size: cover;
+    margin:0px;
+    margin-bottom:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.about-head{
+    font-size:30px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+.about-background{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.specialize-con{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.follow-btn {
+    border-width: 3px;
+    border-style: solid;
+    border-color:grey;
+    color: grey;
+    cursor: pointer;
+    border-radius:10px;
+}
+
+.follow-btn.following {
+    border-color: blue;
+    color: blue;
+    border-radius:10px;
+}
+
+.icon-container{
+    background-color:#F7F7FC;
+    border-width:2px;
+    border-style:solid;
+    border-color:#8E8E8E;
+    color:#3A643B;
+   border-radius:40px;
+   padding:5px;
+   padding-right:10px;
+   padding-left:10px;
+   margin-right:20px;
+   margin-top:20px;
+
+}
+.image-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-items:center;
+    background-color:#FFFCF2;
+    border-width:2px;
+    border-style:solid;
+    border-color:#EAEAEA;
+    height:100px;
+    width:100px;
+    border-radius:10px;
+    padding-top:30px;
+    padding-bottom:15px;
+    margin:5px;
+}
+.specialize-para{
+    font-size:12px;
+    font-style:"Arial";
+}
+.para-language{
+    background-color:#E2E2E2;
+    border-width:0px;
+    color:#505050;
+    width:80px;
+    padding:10px;
+    text-align:center;
+    font-family:"Arial";
+    border-radius:10px;
+    margin-right:10px;
+
+}
+.head-language{
+    color:#505050;
+    font-size:16px;
+    font-weight:700px;
+    font-family:"Arial";
+    margin-right:10px;
+    padding-top:10px;
+}
+.symbol-con{
+    background-color:#F7F7FC;
+    border-width:0px;
+    margin-right:10px;
+
+}
+.container10{
+    background-color:#FFFFFF;
+    border-width:2px;
+    border-style:solid;
+    border-color:#DCDCDC;
+    border-radius:10px;
+    width:90%;
+    padding-bottom:20px;
+    margin:40px;
+    margin-left:70px;
+}
+.about-para{
+    width:400px;
+    color:grey;
+    font-size:15px;
+    font-family:Arial;
+
+}
+.horizintal-con{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.top-head{
+    font-size:30px;
+    font-family:"Arial";
+
+}
+.horizintal-line{
+    width:300px;
+}
+.read-btn{
+    background-color:white;
+    border-width:0px;
+    color:black;
+    text-decoration: underline;
+}
+.language-con{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding:20px;
+}
+.concerns-para{
+    background-color:#E2E2E2;
+    border-width:0px;
+    color:#505050;
+    width:100px;
+    padding:10px;
+    text-align:center;
+    font-family:"Arial";
+    border-radius:10px;
+    margin-right:10px;
+    font-size:10px;
+}
+.show-btn{
+    background-color:#FFFFFF;
+    color:#3A643B;
+    border-width:2px;
+    border-style:solid;
+    border-color:#E0DFDF;
+    border-radius:10px;
+    width:100px;
+    height:35px;
+    margin-left:10px;
+
+}
+.concers-wrap{
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:10px;
+}
+.work-head{
+    font-size:30px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+.work-head2{
+    font-size:20px;
+    color:#3A643B;
+    font-weight:bold;
+    font-family:"Arial";
+    margin-left:10px;
+}
+.horizontal-line{
+    width:200px;
+}
+.medical-con{
+    display:flex;
+    flex-direction:row;
+}
+.work-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width:400px;
+    margin-left:10px;
+}
+.medical-head{
+    font-size:15px;
+    color:black;
+}
+.medical-para{
+    font-size:10px;
+    color:grey;
+}
+.featured-head{
+    font-size:30px;
+    font-weight:bold;
+    font-family:"Arial";
+
+}
+.Hightower-con{
+        display:flex;
+        flex-direction:row;
+
+}
+.featured-con{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width:400px;
+    margin-top:20px;
+}
+.Hightower-head{
+    font-size:15px;
+    color:black;
+}
+.Hightower-para{
+    font-size:10px;
+    color:grey;
+}
+.Hightower-para2{
+    width:400px;
+    font-size:10px;
+}
+.ali-img{
+    width:50px;
+    height:40px;
+    padding-right:13px;
+}
+.containers{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.feature-container{
+    margin-left:1px;
+}
+@media (max-width: 1200px) {
+    .containers{
+        flex-direction:column;
+        justify-content:center;
+    }
+}
+@media (max-width: 992px){
+    .background1{
+        background-image: linear-gradient(to right, #E2E2E2, white);
+        background-size: cover;
+        margin:0px;
+        padding:5px;
+        margin-bottom:5px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+    }
+    .about-head{
+        font-size:15px;
+        font-weight:bold;
+        font-family:"Arial";
+    }
+    .about-background{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .img-specialize{
+        height:40px;
+        width:40px;
+    }
+    .specialize-con{
+        display:flex;
+       flex-wrap:wrap;
+    }
+    .follow-btn {
+        border-width: 3px;
+        border-style: solid;
+        border-color:grey;
+        color: grey;
+        cursor: pointer;
+        border-radius:10px;
+        font-size:10px;
+    }
+    
+    .follow-btn.following {
+        border-color: blue;
+        color: blue;
+        border-radius:10px;
+    }
+    
+    .icon-container{
+        background-color:#F7F7FC;
+        border-width:2px;
+        border-style:solid;
+        border-color:#8E8E8E;
+        color:#3A643B;
+       border-radius:40px;
+       padding:3px;
+       padding-right:5px;
+       padding-left:5px;
+       margin-right:10px;
+       margin-top:10px;
+    
+    }
+    .image-container{
+        display:flex;
+        flex-direction:column;
+        justify-content:center; 
+        align-items:center;
+        background-color:#FFFCF2;
+        border-width:2px;
+        border-style:solid;
+        border-color:#EAEAEA;
+        height:100px;
+        width:70px;
+        border-radius:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        margin:4px;
+    }
+    .specialize-para{
+        font-size:9px;
+        font-style:"Arial";
+    }
+    .para-language{
+        background-color:#E2E2E2;
+        border-width:0px;
+        color:#505050;
+        width:60px;
+        padding:5px;
+        text-align:center;
+        font-family:"Arial";
+        border-radius:10px;
+        margin-right:5px;
+        font-size:10px;
+    
+    }
+    .head-language{
+        color:#505050;
+        font-size:10px;
+        font-weight:600px;
+        font-family:"Arial";
+        margin-right:7px;
+        padding-top:7px;
+    }
+    .symbol-con{
+        background-color:#F7F7FC;
+        border-width:0px;
+        margin-right:5px;
+    
+    }
+    .date-para{
+        font-size:10px;
+    }
+    .container10{
+        background-color:#FFFFFF;
+        border-width:2px;
+        border-style:solid;
+        border-color:#DCDCDC;
+        border-radius:10px;
+        width:70%;;
+        padding-bottom:10px;
+        margin-left:90px;
+    }
+    .about-para{
+        width:200px;
+        color:grey;
+        font-size:10px;
+        font-family:Arial;
+    
+    }
+    .horizintal-con{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+    .top-head{
+        font-size:20px;
+        font-family:"Arial";
+    
+    }
+    .horizintal-line{
+        width:200px;
+    }
+    .read-btn{
+        background-color:white;
+        border-width:0px;
+        color:black;
+        text-decoration: underline;
+    }
+    .language-con{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        padding:10px;
+    }
+    .concerns-para{
+        background-color:#E2E2E2;
+        border-width:0px;
+        color:#505050;
+        width:70px;
+        padding:5px;
+        text-align:center;
+        font-family:"Arial";
+        border-radius:10px;
+        margin-right:5px;
+        font-size:9px;
+    }
+    .show-btn{
+        background-color:#FFFFFF;
+        color:#3A643B;
+        border-width:2px;
+        border-style:solid;
+        border-color:#E0DFDF;
+        border-radius:10px;
+        width:70px;
+        height:60px;
+        margin-left:5px;
+       font-style:5px;
+    }
+    .show-para{
+        font-style:10px;
+    }
+    .concers-wrap{
+        display:flex;
+        flex-wrap:wrap;
+        padding-left:5px;
+    }
+    .work-head{
+        font-size:20px;
+        font-weight:bold;
+        font-family:"Arial";
+    }
+    .work-head2{
+        font-size:15px;
+        color:#3A643B;
+        font-weight:bold;
+        font-family:"Arial";
+        margin-left:5px;
+    }
+    .horizontal-line{
+        width:100px;
+    }
+    .medical-con{
+        display:flex;
+        flex-direction:row;
+    }
+    .work-container{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        width:200px;
+        margin-left:5px;
+    }
+    .medical-head{
+        font-size:10px;
+        color:black;
+    }
+    .medical-para{
+        font-size:8px;
+        color:grey;
+    }
+    .featured-head{
+        font-size:20px;
+        font-weight:bold;
+        font-family:"Arial";
+    
+    }
+    .Hightower-con{
+            display:flex;
+            flex-direction:row;
+    
+    }
+    .featured-con{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        width:200px;
+        margin-top:10px;
+        margin-left:10px;
+    }
+    .Hightower-head{
+        font-size:10px;
+        color:black;
+    }
+    .Hightower-para{
+        font-size:8px;
+        color:grey;
+    }
+    .Hightower-para2{
+        width:200px;
+        font-size:8px;
+        margin-left:10px;
+    }
+    .ali-img{
+        width:30px;
+        height:20px;
+        padding-right:8px;
+    }
+    .feature-container{
+        margin-left:1px;
+    }
+} 
+@media (max-width: 600px){
+
+    .container10{
+        background-color:#FFFFFF;
+        border-width:2px;
+        border-style:solid;
+        border-color:#DCDCDC;
+        border-radius:10px;
+        width:70%;
+        padding-bottom:10px;
+        margin-left:55px;
+    }
+}

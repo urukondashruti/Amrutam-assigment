@@ -1,0 +1,171 @@
+.Bruce-container{
+    background-color:#FFFBF2;
+    border-width:2px;
+    border-style:solid;
+    border-color:#D8D8D8;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;;
+    height:300px;
+   width:90%;
+    margin-top:30px;
+}
+.Bruce-background{
+    background-image:url("https://imgur.com/x2hGCmu.png");
+    height:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:140px;
+
+}
+.star-con{
+    display:flex;
+    flex-direction:row;
+}
+.star{
+    height:25px;
+    width:25px;
+}
+.bruce-info{
+    display:flex;
+    flex-direction:row;
+}
+.correct-icon{
+    height:40px;
+    width:40px;
+    padding-left:10px;
+    padding-top:10px;
+}
+.gynacologist{
+    color:#3A643B;
+}
+.bruce-name{
+    font-size:30px;
+    font-weight:700px;
+    font-family:"Arial";
+}
+.info-container{
+    display:flex;
+    flex-direction:column;
+    padding-top:90px;
+    padding-left:20px;
+}
+.info-background{
+    display:flex;
+    flex-direction:row;
+    padding-top:70px;
+}
+.followers-posts{
+    font-size:20px;
+    font-family:"Arial";
+    color:#3A643B;
+    font-weight:bold;
+}
+.follow-post-con{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-right:30px;
+}
+.con-follow-post{
+    display:flex;
+    flex-direction:row;
+    padding-top:120px;
+}
+.book-btn{
+    background-color:#3A643B;
+    border-width:0px;
+    color:white;
+    height:40px;
+    width:250px;
+    border-radius:20px;
+    margin-top:100px;
+}
+@media (max-width: 992px) {
+    .Bruce-background{
+        height:100px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        padding:100px;
+        
+    }
+    .Bruce-container{
+        height:400px;
+        margin-top:30px;
+
+    }
+    .main-img{
+        height:100px;
+        width:100px;
+        margin-top:100px;
+    }
+    .con-follow-post{
+        padding-top:10px;
+    }
+    .info-container{
+        padding-top:100px;
+    }
+    .book-btn{
+        margin-top:20px;
+    }
+    .followers-posts{
+        font-size:15px;
+        font-family:"Arial";
+        color:#3A643B;
+        font-weight:bold;
+    }
+    .bruce-name{
+        font-size:25px;
+        font-weight:700px;
+        font-family:"Arial";
+    }
+}
+@media (max-width: 550px){
+    .Bruce-background{
+        height:100px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        padding:20px;
+        
+    }
+    .correct-icon{
+        height:20px;
+        width:20px;
+    }
+    .Bruce-container{
+        height:400px;
+        margin-top:30px;
+        margin-left:10px;
+    }
+    .main-img{
+        height:100px;
+        width:100px;
+        margin-top:100px;
+    }
+    .con-follow-post{
+        padding-top:10px;
+    }
+    .info-container{
+        padding-top:100px;
+    }
+    .book-btn{
+        margin-top:20px;
+    }
+    .followers-posts{
+        font-size:10px;
+        font-family:"Arial";
+        color:#3A643B;
+        font-weight:bold;
+    }
+    .bruce-name{
+        font-size:20px;
+        font-weight:700px;
+        font-family:"Arial";
+    }
+}
